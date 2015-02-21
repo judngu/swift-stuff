@@ -119,10 +119,9 @@ avg2(1, 2, 3, 5, 5)
 var evens = Array(1...10).filter { (number) in number % 2 == 0 }
 println(evens)
 
-//closure - shorthand arguments
+//closure - shorthand arguments -- In a closure you can reder to arguments using the $index syntax i(where index is an interger starting from 0) without specifiying them at all
 var hellos = ["giorgio", "jon", "tom", "judy"].map({"Hello " + $0})
 
-
-
+//non functional
 
 
