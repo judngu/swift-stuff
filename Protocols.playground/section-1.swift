@@ -53,35 +53,38 @@ var str = "Hello, playground"
 //jonathan.sayHello(toPerson: "giorgio")
 //
 
-protocol Info {
-    func fullName()
-    func balance()
-    func account_id()
-}
+//protocol Info {
+//    func fullName()
+//    func balance()
+//    func account_id()
+//}
+//
+//class Account:Info {
+//    var name:String
+//    var surname:String
+//    
+//    init(name:String, surname:String){
+//        self.name = name
+//        self.surname = surname
+//    }
+//    func fullName() {
+//        println(name + " " + surname)
+//        
+//    }
+//    
+//    func balance() {
+//        //balance logic goes here
+//        println("$0 :(")
+//
+//    }
+//    func account_id() {
+//    
+//    }
+//}
+//
+//var judyAccount = Account(name: "Judy", surname: "Nguyen")
+//judyAccount.fullName()
 
-class Account:Info {
-    var name:String
-    var surname:String
-    
-    init(name:String, surname:String){
-        self.name = name
-        self.surname = surname
-    }
-    func fullName() {
-        println("/(name) /(surname)")
-        
-    }
-    
-    func balance() {
-        //balance logic goes here
-        println("$0 :(")
 
-    }
-    func account_id() {
-    
-    }
-}
-
-var judyAccount = Account(name: "Judy", surname: "Nguyen")
-judyAccount.fullName()
+// lab 6 write a function that outputs a truple with min max and mean from a sequence of numbers
 
